@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/kiokuless/nuclei/v3/pkg/types"
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/gologger/levels"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
 )
 
 func TestNewCompilerConsoleDebug(t *testing.T) {

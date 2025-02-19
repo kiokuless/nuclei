@@ -4,10 +4,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/model"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/filters"
+	"github.com/kiokuless/nuclei/v3/pkg/model"
+	"github.com/kiokuless/nuclei/v3/pkg/model/types/severity"
+	"github.com/kiokuless/nuclei/v3/pkg/output"
+	"github.com/kiokuless/nuclei/v3/pkg/reporting/trackers/filters"
 	"github.com/stretchr/testify/require"
 )
 

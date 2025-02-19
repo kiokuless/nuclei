@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
+	nuclei "github.com/kiokuless/nuclei/v3/lib"
 	"github.com/kitabisa/go-ci"
-	nuclei "github.com/projectdiscovery/nuclei/v3/lib"
 	"github.com/remeh/sizedwaitgroup"
 )
 

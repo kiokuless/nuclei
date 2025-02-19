@@ -9,12 +9,12 @@ import (
 	"time"
 
 	"github.com/go-pg/pg"
+	utils "github.com/kiokuless/nuclei/v3/pkg/js/utils"
+	"github.com/kiokuless/nuclei/v3/pkg/js/utils/pgwrap"
+	_ "github.com/kiokuless/nuclei/v3/pkg/js/utils/pgwrap"
+	"github.com/kiokuless/nuclei/v3/pkg/protocols/common/protocolstate"
 	"github.com/praetorian-inc/fingerprintx/pkg/plugins"
 	postgres "github.com/praetorian-inc/fingerprintx/pkg/plugins/services/postgresql"
-	utils "github.com/projectdiscovery/nuclei/v3/pkg/js/utils"
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/utils/pgwrap"
-	_ "github.com/projectdiscovery/nuclei/v3/pkg/js/utils/pgwrap"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolstate"
 )
 
 type (

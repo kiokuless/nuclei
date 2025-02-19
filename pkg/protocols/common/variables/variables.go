@@ -5,12 +5,12 @@ import (
 	"strings"
 
 	"github.com/invopop/jsonschema"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/expressions"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/interactsh"
-	protocolutils "github.com/projectdiscovery/nuclei/v3/pkg/protocols/utils"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
-	"github.com/projectdiscovery/nuclei/v3/pkg/utils"
+	"github.com/kiokuless/nuclei/v3/pkg/protocols/common/expressions"
+	"github.com/kiokuless/nuclei/v3/pkg/protocols/common/generators"
+	"github.com/kiokuless/nuclei/v3/pkg/protocols/common/interactsh"
+	protocolutils "github.com/kiokuless/nuclei/v3/pkg/protocols/utils"
+	"github.com/kiokuless/nuclei/v3/pkg/types"
+	"github.com/kiokuless/nuclei/v3/pkg/utils"
 	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 

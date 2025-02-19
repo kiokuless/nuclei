@@ -3,16 +3,16 @@
 package templates
 
 import (
-	"github.com/projectdiscovery/nuclei/v3/pkg/model"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/stringslice"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/extractors"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/matchers"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/dns"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/file"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/http"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/network"
+	"github.com/kiokuless/nuclei/v3/pkg/model"
+	"github.com/kiokuless/nuclei/v3/pkg/model/types/severity"
+	"github.com/kiokuless/nuclei/v3/pkg/model/types/stringslice"
+	"github.com/kiokuless/nuclei/v3/pkg/operators"
+	"github.com/kiokuless/nuclei/v3/pkg/operators/extractors"
+	"github.com/kiokuless/nuclei/v3/pkg/operators/matchers"
+	"github.com/kiokuless/nuclei/v3/pkg/protocols/dns"
+	"github.com/kiokuless/nuclei/v3/pkg/protocols/file"
+	"github.com/kiokuless/nuclei/v3/pkg/protocols/http"
+	"github.com/kiokuless/nuclei/v3/pkg/protocols/network"
 )
 
 var (

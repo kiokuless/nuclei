@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/markdown/util"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
-	"github.com/projectdiscovery/nuclei/v3/pkg/utils"
+	"github.com/kiokuless/nuclei/v3/pkg/catalog/config"
+	"github.com/kiokuless/nuclei/v3/pkg/model"
+	"github.com/kiokuless/nuclei/v3/pkg/output"
+	"github.com/kiokuless/nuclei/v3/pkg/reporting/exporters/markdown/util"
+	"github.com/kiokuless/nuclei/v3/pkg/types"
+	"github.com/kiokuless/nuclei/v3/pkg/utils"
 	unitutils "github.com/projectdiscovery/utils/unit"
 )
 

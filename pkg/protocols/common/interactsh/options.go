@@ -3,11 +3,11 @@ package interactsh
 import (
 	"time"
 
+	"github.com/kiokuless/nuclei/v3/pkg/fuzz/frequency"
+	"github.com/kiokuless/nuclei/v3/pkg/output"
+	"github.com/kiokuless/nuclei/v3/pkg/progress"
+	"github.com/kiokuless/nuclei/v3/pkg/reporting"
 	"github.com/projectdiscovery/interactsh/pkg/client"
-	"github.com/projectdiscovery/nuclei/v3/pkg/fuzz/frequency"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/progress"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting"
 	"github.com/projectdiscovery/retryablehttp-go"
 )
 
