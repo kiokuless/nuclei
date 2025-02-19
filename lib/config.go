@@ -493,3 +493,17 @@ func DisableUpdateCheck() NucleiSDKOptions {
 		return nil
 	}
 }
+
+func WithFuzzFrequency(fuzzFrequency int) NucleiSDKOptions {
+	return func(e *NucleiEngine) error {
+		e.opts.FuzzParamFrequency = fuzzFrequency
+		return nil
+	}
+}
+
+func WithNoMeta(noMeta bool) NucleiSDKOptions {
+	return func(e *NucleiEngine) error {
+		e.opts.NoMeta = noMeta
+		return nil
+	}
+}
